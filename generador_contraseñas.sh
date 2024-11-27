@@ -8,7 +8,8 @@ echo -e "\e[35m
 ║╚══╩═╩╩═╝╚╝╚╩╩═╩═╝║
 ╚══════════════════╝\e[0m"
 
-"\e[1;36mGENERADOR DE CONTRASEÑAS TJZ\e[0m"
+echo -e "\e[1;33mGENERADOR_DE CONTRASEÑAS\e[0m"
+
 
 if [ ! -d "/storage/emulated/0" ]; then
   echo "No se encontró acceso a la tarjeta SD. Asegúrate de haber otorgado permisos."
